@@ -1,4 +1,4 @@
-# Advanced E-Commerce API
+#  E-Commerce API
 
 A production-ready microservice backend for e-commerce with complex state management, transactional integrity, and asynchronous processing.
 
