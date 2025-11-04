@@ -1,0 +1,28 @@
+
+
+const ORDER_STATUS = {
+  PENDING_PAYMENT: 'PENDING_PAYMENT',
+  PAID: 'PAID',
+  SHIPPED: 'SHIPPED',
+  DELIVERED: 'DELIVERED',
+  CANCELLED: 'CANCELLED'
+};
+
+const PAYMENT_STATUS = {
+  SUCCESS: 'SUCCESS',
+  FAILED: 'FAILED'
+};
+
+const USER_ROLES = {
+  USER: 'USER',
+  ADMIN: 'ADMIN'
+};
+
+const ORDER_TIMEOUT = 15 * 60 * 1000; // 15 minutes in milliseconds
+
+module.exports = {
+  ORDER_STATUS,
+  PAYMENT_STATUS,
+  USER_ROLES,
+  ORDER_TIMEOUT
+};
