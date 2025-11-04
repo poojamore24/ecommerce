@@ -26,7 +26,7 @@ A production-ready microservice backend for e-commerce with complex state manage
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/poojamore24/ecommerce.git 
 cd ecommerce-api
 ```
 
@@ -43,7 +43,7 @@ Create a `.env` file in the root directory:
 ```env
 PORT=5000
 MONGODB_URI=mongodb://localhost:27017/ecommerce
-JWT_SECRET=your_super_secret_jwt_key_change_in_production
+JWT_SECRET=your_super_secret_jwt_key
 JWT_EXPIRE=7d
 NODE_ENV=development
 ```
