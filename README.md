@@ -56,8 +56,8 @@ Make sure MongoDB is running:
 # If using MongoDB locally
 mongod
 
-# Or using Docker
-docker run -d -p 27017:27017 --name mongodb mongo:latest
+
+
 ```
 
 ### 5. Run the application
