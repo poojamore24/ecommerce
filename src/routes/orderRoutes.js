@@ -15,9 +15,11 @@ router.use(protect);
 router.use(authorize('USER'));
 
 router.post('/checkout', checkout);
-router.post('/:id/pay', payOrder);
 router.get('/', getUserOrders);
+
+
 router.get('/:id', getOrderById);
+router.post('/:id/pay', payOrder);
 
 
 module.exports = router;
